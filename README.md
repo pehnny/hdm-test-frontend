@@ -1,7 +1,7 @@
 # Solution au test
 ## TODO : TodoPage
 
-Il est demandé au début du fichier d'implémenter **create** et **delete** avec une mention pour **update**. Cependant, la signature de la fonction **handleSave()** ne possède pas de paramètre pour transférer des données et les inputs associés aux tâches ne semble pas fonctionner. J'ai donc décidé de ne pas travailler dessus. A la place, j'ai ajouté un input pour ajouter des tâches non-vide dans un délai raisonnable.
+Il est demandé au début du fichier d'implémenter **create** et **delete** avec une mention pour **update**. Cependant, la signature de la fonction **handleSave()** ne possède pas de paramètre pour transférer des données et les inputs associés aux tâches ne semblent pas fonctionner (aucune mise à jour visuelle quand j'écris). J'ai donc décidé de ne pas travailler dessus. A la place, j'ai ajouté un input pour envoyer une tâche directement avec un nom.
 
 Les deux fonctions à implémenter sont simples. La première, ***delete**, consiste en un simple appel vers l'API et une mise à jour de la liste côté frontend. Pour ce faire, on comprend que le hook personnalisé `useFetch()` est d'une grande aide. L'implémentation donne :
 
